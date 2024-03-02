@@ -18,7 +18,7 @@ export default function Index() {
     return (
         <Preloader>
             <LandingLayout>
-                <Landing />
+                {/* <Landing /> */}
                 <Aiassist />
                 {/* <HeroSection />
                 
