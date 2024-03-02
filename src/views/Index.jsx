@@ -12,22 +12,22 @@ import { Preloader } from '@/components/reactdash-ui';
 import CustomForm from '@/components/reactdash-ui/forms/CustomForm';
 // import { Input } from '@/components/reactdash-ui/forms/Input'
 // import { InputGroup } from '../components/reactdash-ui/forms/InputGroup'
-import Landing from './pages/landing';
-import Aiassist from './pages/Aiassist';
+// import Landing from './pages/landing';
+// import Aiassist from './pages/Aiassist';
 export default function Index() {
     return (
         <Preloader>
             <LandingLayout>
                 {/* <Landing /> */}
-                <Aiassist />
-                {/* <HeroSection />
+                {/* <Aiassist /> */}
+                 <HeroSection />
                 
                 <FeaturesSection />
                 <CustomForm />
                 <AboutSection />
                 <DemoSection />
                 <ComponentSection />
-                <PricingSection /> */}
+                <PricingSection /> 
             </LandingLayout>
         </Preloader>
     );
